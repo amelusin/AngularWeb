@@ -1,0 +1,68 @@
+/* barra superior fija */
+nav {
+    overflow: hidden;
+    background-image: url("../../../assets/imagenes/Fondoheader.jpg");
+    position: fixed; /* Fija la barra */
+    top: 0; /* Posiciona la barra en la parte superior de la pagina */
+    width: 100%; /* ocupa el ancho total de la pagina sin importar el tamaño de la ventana */
+    height: 36px; /* altura fija */
+    z-index: 999; /* posiciona la barra visualmente en una capa superior */
+  }
+  
+  
+  /* Iconos dentro de la barra superior fija */
+  nav a {
+    float: right;
+    display: block;
+    text-decoration: none;
+    padding-right: 5px;
+    margin-top: 3px;
+    cursor: pointer;
+  }
+  
+  .argie {
+    float: left;
+    margin-left: 1%;
+  }
+  
+  /* Cambia la imagen del icono por otra a color al colocar el mouse sobre la imagen (TODAVIA NO FUNCIONA; PERO POR AHI VA) */
+  .fac :hover {
+    background: url("../../../assets/imagenes/iconos/facebookiconcolor.png");
+    z-index: 999;
+  }
+  .you :hover {
+    background-color: rgb(66, 241, 12);
+  }
+  .ins :hover {
+    background-color: rgb(17, 128, 226);
+  }
+  .spo :hover {
+    background-color: rgb(228, 21, 31);
+    }
+  
+  /* Boton Login, cambia de color al colocar mouse encima*/
+    .button {
+      background-color: #0077B6;
+      color: white;
+      padding: 2px 15px; 
+      text-align: center;
+      text-decoration: none;
+      font-size: 13px;
+      margin: 4px 4px;
+      transition-duration: 0.4s;
+      border-radius: 8px;   
+      cursor: pointer;
+      float: right;    
+    }
+  
+    .button1 {
+      background-color: #0077B6; 
+      color: rgb(255, 255, 255); 
+      border: 2px solid rgb(0, 180, 216)
+      
+    }
+  
+    .button1:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
