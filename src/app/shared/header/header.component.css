@@ -11,7 +11,7 @@ nav {
   
   
   /* Iconos dentro de la barra superior fija */
-  nav a {
+  .red {
     float: right;
     display: block;
     text-decoration: none;
@@ -19,10 +19,13 @@ nav {
     margin-top: 3px;
     cursor: pointer;
   }
-  
-  .argie {
+
+  .arg {
+    margin-left: 10px;
+    display: block;
     float: left;
-    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 3px;
   }
   
   /* Cambia la imagen del icono por otra a color al colocar el mouse sobre la imagen (TODAVIA NO FUNCIONA; PERO POR AHI VA) */

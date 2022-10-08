@@ -1,0 +1,13 @@
+/* Foto de perfil */
+.profilepic {
+    position: relative; /* Coloca la imagen sobre el resto del contenido, como flotando encima */
+    border-radius: 50%; /* Hace la foto de manera circular */
+    max-width: 15%; /* Reduce el ancho de la foto a un 15% del total del tamaño de la pagina */
+    max-height: 15%; /* Reduce el alto de la foto a un 15% del total del tamaño de la pagina */
+    z-index: 100; /* Coloca la foto en una capa superior */
+    margin-top: -8%; /* Coloca la foto fuera y encima del Div que la contiene */
+    margin-left: 1%; /* Despegamos del borde izquierdo */
+    display: block; /* ??????? */
+    border: thin /* Grueso del borde */
+     solid #000000; /* Color del Borde */
+  }

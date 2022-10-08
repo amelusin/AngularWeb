@@ -1,0 +1,5 @@
+/* Medidas de carrousel para que ocupe toda la pantalla y varie su tamaño de acuerdo al tamaño de la ventana */
+#carouselExampleFade {
+    width: 100%;
+    height: 100%;
+}
