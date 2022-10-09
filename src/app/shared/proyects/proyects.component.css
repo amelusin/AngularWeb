@@ -1,0 +1,92 @@
+.container {
+    background-color: #CAF0F8;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: none none none solid;
+    border-width: 10px;
+    border-color: #00B4D8;
+    border-radius: 10px;  
+    text-align: justify;
+    margin: auto;
+  }
+
+  /* Medidas de carrousel para que ocupe toda la pantalla y varie su tamaño de acuerdo al tamaño de la ventana */
+#carouselExampleFade {
+    width: 100%;
+    height: 100%;
+}
+
+  /* Boton imagenes, cambia de color al colocar mouse encima*/
+.button5 {
+    background-color: #0077B6;
+    color: white;
+    padding: 2px 15px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px 4px;
+    transition-duration: 0.4s;
+    border-radius: 8px;   
+    cursor: pointer;
+    float: center;    
+  }
+  
+  .button6 {
+    background-color: #0077B6; 
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgb(0, 180, 216)
+    
+  }
+  
+  .button6:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+  /* The Modal (background) */
+  .modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; /* Full width */
+    height:auto; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 0% auto;
+    padding: 0%;
+    border: 10px solid #888;
+    width: 90%;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight:normal;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }

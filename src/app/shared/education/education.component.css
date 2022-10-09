@@ -1,0 +1,18 @@
+.container {
+    background-color: #CAF0F8;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: none none none solid;
+    border-width: 10px;
+    border-color: #00B4D8;
+    border-radius: 10px;  
+    text-align: justify;
+    margin: auto;
+  }
+
+  .logoed {
+    float: right;
+    margin-top: 15px;
+    max-width: 80px;
+    max-height: 80px;
+  }
