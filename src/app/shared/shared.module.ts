@@ -18,7 +18,7 @@ import { ProyectsComponent } from './proyects/proyects.component';
     ExperienceComponent,
     EducationComponent,
     SkillsComponent,
-    ProyectsComponent
+    ProyectsComponent,
   ],
   imports: [
     CommonModule
