@@ -8,6 +8,6 @@
     margin-top: -8%; /* Coloca la foto fuera y encima del Div que la contiene */
     margin-left: 1%; /* Despegamos del borde izquierdo */
     display: block; /* ??????? */
-    border: thin /* Grueso del borde */
-     solid #000000; /* Color del Borde */
+    border: thick /* Grueso del borde */
+     solid #ffffff; /* Color del Borde */
   }
